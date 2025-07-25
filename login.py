@@ -10,11 +10,11 @@ driver = webdriver.Chrome(service=service, options=options)
 
 driver.get("http://e-exam.igdtuw.ac.in/exam/login/index.php")
 username=driver.find_element(By.XPATH,'/html/body/div[4]/div/div/div/form[1]/div[2]/div/input')
-username.send_keys("03901192023")
+username.send_keys("") #enrollment number
 
 
 password=driver.find_element(By.XPATH,'/html/body/div[4]/div/div/div/form[1]/div[3]/div/input')
-password.send_keys("Se@2024")
+password.send_keys("") #passowrd
 
 
 
