@@ -37,14 +37,14 @@ email_box=WebDriverWait(Driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[4]/div[1]/form/div[2]/div/span/div/input'))
 )
 email_box.click()
-email_box.send_keys("mishtyverma9@gmail.com")
+email_box.send_keys("") #email
 
 
 password_box=WebDriverWait(Driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[4]/div[1]/form/div[4]/div/span/div/input'))
 )
 password_box.click()
-password_box.send_keys("9873314709Mm")
+password_box.send_keys("") #passowrd
 
 final_login=WebDriverWait(Driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div[4]/div[1]/form/div[7]/button/div'))
